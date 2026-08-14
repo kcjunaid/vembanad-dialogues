@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vembanad Dialogues 2026 – Global Symposium on Keralam’s Blue Economy, 25–26 September 2026, Cherthala, Kerala.">
+<title>Vembanad Dialogues 2026 | Global Symposium on Keralam’s Blue Economy</title>
+<style>
+:root{
+  --navy:#062b3a; --blue:#087f8c; --cyan:#18b6b2; --aqua:#dff8f5;
+  --sand:#f5efe3; --ink:#10252d; --muted:#587078; --white:#fff;
+  --shadow:0 18px 50px rgba(4,43,58,.12); --radius:22px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fbfdfd;line-height:1.65}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+.topbar{background:var(--navy);color:#d9f5f3;padding:9px 0;font-size:13px}
+.topbar .container{display:flex;justify-content:space-between;gap:20px}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid #e6eeee}
+.nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:900;letter-spacing:-.04em;color:var(--navy);font-size:21px}
+.brand span{display:block;color:var(--blue);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.navlinks{display:flex;gap:23px;align-items:center;font-size:14px;font-weight:700}
+.navlinks a:hover{color:var(--blue)}
+.menu{display:none;background:none;border:0;font-size:25px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-weight:800;font-size:14px;transition:.2s;border:1px solid transparent;cursor:pointer}
+.btn-primary{background:var(--cyan);color:var(--navy)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 25px rgba(24,182,178,.25)}
+.btn-outline{border-color:#b9d7d8;color:var(--navy);background:white}
+.hero{position:relative;overflow:hidden;background:
+ radial-gradient(circle at 80% 20%,rgba(24,182,178,.28),transparent 30%),
+ linear-gradient(135deg,#062b3a 0%,#07586a 58%,#0a8f91 100%);color:#fff;padding:88px 0 80px}
+.hero:after{content:"";position:absolute;inset:auto -10% -100px -10%;height:190px;background:#fbfdfd;border-radius:50% 50% 0 0/70% 70% 0 0}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center;position:relative;z-index:1}
+.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.16em;font-weight:900;color:#8df1e8}
+h1{font-size:clamp(45px,7vw,84px);line-height:.94;letter-spacing:-.065em;margin:16px 0 24px}
+.hero h1 em{font-style:normal;color:#79e4df}
+.hero p{font-size:19px;max-width:720px;color:#d9f4f3}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}
+.pill{padding:8px 13px;border:1px solid rgba(255,255,255,.24);border-radius:999px;background:rgba(255,255,255,.08);font-size:13px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.2);padding:28px;border-radius:var(--radius);box-shadow:var(--shadow);backdrop-filter:blur(10px)}
+.hero-card small{color:#a9dfdd;text-transform:uppercase;letter-spacing:.13em;font-weight:800}
+.hero-card strong{display:block;font-size:25px;margin:7px 0 20px}
+.wave-stat{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{background:rgba(0,0,0,.13);padding:15px;border-radius:16px}
+.stat b{display:block;font-size:24px}.stat span{font-size:12px;color:#bfe8e6}
+section{padding:88px 0}
+.section-kicker{color:var(--blue);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.16em}
+h2{font-size:clamp(30px,4vw,48px);line-height:1.05;letter-spacing:-.04em;margin:10px 0 18px;color:var(--navy)}
+.lead{font-size:18px;color:var(--muted);max-width:820px}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:45px}
+.quote{background:var(--sand);border-radius:var(--radius);padding:30px;height:100%;font-size:24px;font-weight:800;color:var(--navy)}
+.quote span{display:block;margin-top:20px;font-size:13px;font-weight:700;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}
+.card{background:#fff;border:1px solid #e2eeee;border-radius:var(--radius);padding:25px;box-shadow:0 8px 30px rgba(4,43,58,.05)}
+.card h3{margin:0 0 9px;color:var(--navy);font-size:19px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.themes{background:#eef9f7}
+.theme-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:35px}
+.theme{background:#fff;border-radius:18px;padding:22px;border:1px solid #d9ecea}
+.theme .num{font-size:12px;color:var(--blue);font-weight:900}
+.theme h3{font-size:17px;margin:7px 0 0;line-height:1.25}
+.theme ul{padding-left:18px;color:var(--muted);font-size:13px;margin-bottom:0}
+.speakers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:35px}
+.speaker{padding:22px;border-left:4px solid var(--cyan);background:#fff;border-radius:14px;box-shadow:0 7px 25px rgba(4,43,58,.06)}
+.speaker strong{display:block;color:var(--navy);line-height:1.3}.speaker span{font-size:13px;color:var(--muted)}
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:35px}
+.milestone{background:var(--navy);color:#fff;border-radius:17px;padding:20px}
+.milestone small{color:#8fe3df;font-weight:800}.milestone b{display:block;margin-top:6px}
+.fees{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.fee{padding:30px;border-radius:var(--radius);background:#fff;border:1px solid #dfeeee;text-align:center}
+.fee b{display:block;font-size:34px;color:var(--navy);margin-top:5px}
+.highlight{background:linear-gradient(135deg,#062b3a,#0b6874);color:white}
+.highlight h2{color:white}.highlight .lead{color:#d3eded}
+.highlight-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:25px}
+.check{background:rgba(255,255,255,.08);padding:12px 14px;border-radius:12px;font-size:14px}
+.contact{background:var(--sand)}
+.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:35px}
+.contact-box{background:#fff;border-radius:var(--radius);padding:30px}
+footer{background:#031c27;color:#b8d6d7;padding:45px 0}
+footer strong{color:white}.footer-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+footer small{display:block;margin-top:25px;color:#78999d}
+@media(max-width:900px){
+ .navlinks{display:none}.menu{display:block}.hero-grid,.about-grid,.highlight-grid,.contact-grid{grid-template-columns:1fr}
+ .cards,.speakers{grid-template-columns:1fr 1fr}.theme-grid{grid-template-columns:1fr 1fr}.timeline{grid-template-columns:1fr 1fr}.fees{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+ .topbar .container{display:block}.topbar .container span:last-child{display:none}
+ .hero{padding:65px 0}.hero-card{margin-top:10px}
+ .cards,.speakers,.theme-grid,.timeline,.checks{grid-template-columns:1fr}
+ section{padding:65px 0}h1{font-size:52px}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>VEMBANAD DIALOGUES 2026</span><span>25–26 September 2026 · Cherthala, Kerala · Hybrid Mode</span></div></div>
+
+<nav>
+ <div class="container nav-inner">
+  <a class="brand" href="#home">Vembanad Dialogues<span>Global Symposium · Blue Economy</span></a>
+  <button class="menu" onclick="document.querySelector('.navlinks').classList.toggle('show')" aria-label="Menu">☰</button>
+  <div class="navlinks">
+   <a href="#about">About</a><a href="#themes">Themes</a><a href="#programme">Highlights</a><a href="#papers">Call for Papers</a><a href="#speakers">Speakers</a><a href="#registration">Registration</a>
+   <a class="btn btn-primary" href="#contact">Join the Dialogue</a>
+  </div>
+ </div>
+</nav>
+
+<header class="hero" id="home">
+ <div class="container hero-grid">
+  <div>
+   <div class="eyebrow">Global Symposium on Keralam’s Blue Economy</div>
+   <h1>Vembanad<br><em>Dialogues</em> 2026</h1>
+   <p>Opportunities · Innovation · Sustainable Development</p>
+   <div class="hero-meta">
+    <span class="pill">25–26 September 2026</span><span class="pill">Naipunnya School of Management</span><span class="pill">Cherthala, Alappuzha, Kerala</span><span class="pill">In-person & Online</span>
+   </div>
+   <div class="hero-actions"><a class="btn btn-primary" href="#papers">Submit an Abstract</a><a class="btn btn-outline" href="#registration">Register as a Delegate</a></div>
+  </div>
+  <aside class="hero-card">
+   <small>Central Vision</small><strong>From knowledge to policy, innovation to action.</strong>
+   <div class="wave-stat"><div class="stat"><b>7</b><span>Research themes</span></div><div class="stat"><b>2</b><span>Days of dialogue</span></div><div class="stat"><b>4</b><span>Blue Economy workshops</span></div><div class="stat"><b>1</b><span>Vision 2030 Declaration</span></div></div>
+  </aside>
+ </div>
+</header>
+
+<section id="about">
+ <div class="container about-grid">
+  <div>
+   <div class="section-kicker">About the Symposium</div>
+   <h2>Where research, policy, innovation and action converge.</h2>
+   <p class="lead">Vembanad Dialogues 2026 is a Global Symposium on Keralam’s Blue Economy, bringing together researchers, policymakers, government representatives, industry leaders, entrepreneurs, development agencies, students, professionals and community stakeholders to explore the opportunities and challenges shaping a sustainable blue future.</p>
+   <p>Hosted by Naipunnya School of Management, Cherthala, the two-day symposium is anchored in the emerging vision of positioning Alappuzha as India’s Blue Economy Capital. It connects research evidence with policy priorities, entrepreneurial opportunities, community needs and practical development pathways.</p>
+  </div>
+  <div class="quote">“Positioning Alappuzha as India’s Blue Economy Capital.”<span>Research · Policy · Innovation · Enterprise · Sustainability · Community</span></div>
+ </div>
+</section>
+
+<section class="themes" id="themes">
+ <div class="container">
+  <div class="section-kicker">Research Themes</div><h2>Seven pathways into the Blue Economy.</h2>
+  <p class="lead">Interdisciplinary research, case studies, policy analyses, reviews, posters and scholarly contributions are welcome.</p>
+  <div class="theme-grid">
+   <div class="theme"><div class="num">THEME 01</div><h3>Fisheries, Aquaculture & Coastal Livelihoods</h3><ul><li>Sustainable marine fishing</li><li>Advanced inland fisheries</li><li>Mariculture & seaweed cultivation</li><li>Coastal livelihood diversification</li></ul></div>
+   <div class="theme"><div class="num">THEME 02</div><h3>Blue Tourism, Recreation & Cultural Heritage</h3><ul><li>Beach & backwater tourism</li><li>Marine cruise & wellness tourism</li><li>Eco & cultural tourism</li><li>Maritime heritage & museums</li></ul></div>
+   <div class="theme"><div class="num">THEME 03</div><h3>Marine Industries & Blue Biotechnology</h3><ul><li>Seafood processing</li><li>Value-added marine products</li><li>Marine biotechnology</li><li>Blue pharmaceuticals</li></ul></div>
+   <div class="theme"><div class="num">THEME 04</div><h3>Climate Action, Conservation & Renewable Energy</h3><ul><li>Mangrove restoration</li><li>Wetlands & biodiversity</li><li>Blue carbon markets</li><li>Wind, wave & floating solar</li></ul></div>
+   <div class="theme"><div class="num">THEME 05</div><h3>Education, Skills, Communication & Digital Blue Economy</h3><ul><li>Maritime education</li><li>Blue entrepreneurship</li><li>GIS & remote sensing</li><li>AI for fisheries & Blue Economy</li></ul></div>
+   <div class="theme"><div class="num">THEME 06</div><h3>Coastal Agriculture & Blue Cuisine</h3><ul><li>Integrated coastal agriculture</li><li>Saline-resistant farming</li><li>Commercial aquaponics</li><li>Sustainable blue cuisine</li></ul></div>
+   <div class="theme"><div class="num">THEME 07</div><h3>Blue Finance & Emerging Policy Perspectives</h3><ul><li>Sustainable blue investments</li><li>Blue bonds & ESG financing</li><li>Regional policy dialogue</li><li>Coastal resilience policy</li></ul></div>
+   <div class="theme"><div class="num">OPEN</div><h3>Interdisciplinary Blue Economy Issues</h3><ul><li>Related cross-sector research</li><li>Policy and development interventions</li><li>Emerging innovations</li><li>Community-based approaches</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<section id="programme">
+ <div class="container">
+  <div class="section-kicker">Two Days of Dialogue, Research & Action</div><h2>A platform built for exchange.</h2>
+  <div class="cards">
+   <div class="card"><h3>Plenary Sessions</h3><p>Three plenary sessions bringing diverse perspectives into the Blue Economy conversation.</p></div>
+   <div class="card"><h3>Panel Discussions</h3><p>Two panel discussions connecting expertise, experience, policy and practice.</p></div>
+   <div class="card"><h3>Blue Economy Workshops</h3><p>Four workshops focused on practical learning, innovation and sectoral engagement.</p></div>
+   <div class="card"><h3>Technical Sessions</h3><p>Two parallel technical sessions for research presentations and scholarly exchange.</p></div>
+   <div class="card"><h3>Policy Dialogue</h3><p>A focused space for evidence-based policy perspectives and strategic recommendations.</p></div>
+   <div class="card"><h3>Industry–Academia Interface</h3><p>Connections for research collaboration, entrepreneurship, skills and investment.</p></div>
+   <div class="card"><h3>Blue Economy Exhibition</h3><p>Showcasing enterprises, sustainable products, technologies, tourism initiatives and community innovations.</p></div>
+   <div class="card"><h3>Research Posters & Awards</h3><p>Interactive poster presentations and Best Paper Awards to celebrate emerging work.</p></div>
+   <div class="card"><h3>Vision 2030 Declaration</h3><p>A proposed consolidated statement of strategic recommendations emerging from the symposium.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="speakers">
+ <div class="container">
+  <div class="section-kicker">Speakers & Resource Persons</div><h2>Perspectives across sectors and geographies.</h2>
+  <div class="speakers">
+   <div class="speaker"><strong>Prof. (Dr.) Biju Kumar</strong><span>Vice Chancellor, Kerala University of Fisheries and Ocean Studies</span></div>
+   <div class="speaker"><strong>Prof. Achuthsankar S. Nair</strong><span>Chairperson, Kerala State Higher Education Council</span></div>
+   <div class="speaker"><strong>Dr. P. Shinoj</strong><span>Principal Scientist, FRAEED, ICAR-CMFRI, Kochi</span></div>
+   <div class="speaker"><strong>Dr. Jacob George C</strong><span>Senior Associate Director, Adi Shankara Group of Institutions & Visiting Professor, NIT Calicut</span></div>
+   <div class="speaker"><strong>Mr. Rupesh Kumar K.</strong><span>CEO, Kerala Responsible Tourism Mission Society</span></div>
+   <div class="speaker"><strong>Mr. Vinod V.</strong><span>President, All Kerala Houseboat Owners Association</span></div>
+   <div class="speaker"><strong>Mr. Venugopal G.</strong><span>President, All Kerala Houseboat Owners Federation</span></div>
+   <div class="speaker"><strong>HR Representative</strong><span>Ramada by Wyndham, Alappuzha</span></div>
+   <div class="speaker"><strong>Mr. S. P. Sujith Swaminikarthil</strong><span>Variety Farmer</span></div>
+   <div class="speaker"><strong>Sr. Dr. Anet Cinobey</strong><span>MD</span></div>
+   <div class="speaker"><strong>Prof. Roy D. Palmer</strong><span>CEO, Seafood Consumers Association Ltd. (ACNC), Australia</span></div>
+   <div class="speaker"><strong>Mr. Jackson Peter</strong><span>Founder & Managing Director, Cool Divers Pvt. Ltd.; Founder & Managing Director, Bond Ocean Safari; Founder & Managing Trustee, Planet Ocean Foundation</span></div>
+   <div class="speaker"><strong>Prof. (Dr.) Paulachan KJ Kaithottungal</strong><span>Principal and Executive Director, Naipunnya Institute of Management and Information Technology, Autonomous (NIMIT), Koratty, Thrissur</span></div>
+   <div class="speaker"><strong>Dr. Aswathy N.</strong><span>Principal Scientist, FRAEED, ICAR-CMFRI, Kochi</span></div>
+   <div class="speaker"><strong>Father Xavier Kudiyamserry</strong><span>Resource Person</span></div>
+   <div class="speaker"><strong>Mr. Mathew Joseph</strong><span>Co-Founder and COO, FreshToHome</span></div>
+   <div class="speaker"><strong>Mr. Mahadevan Pavithran</strong><span>Travancore Cocotuft Pvt. Ltd.</span></div>
+   <div class="speaker"><strong>Mr. Sid Mehta</strong><span>Founder and CEO, Greenworks Inc., Canada</span></div>
+   <div class="speaker"><strong>Prof. (Dr.) Thomas Hahn</strong><span>Associate Professor, National Resilience Centre, Stockholm University</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="papers">
+ <div class="container">
+  <div class="section-kicker">Call for Papers</div><h2>Bring your research to the dialogue.</h2>
+  <p class="lead">Original and unpublished research papers, review papers, case studies, policy analyses and research posters are invited from academicians, researchers, policymakers, professionals and students.</p>
+  <div class="cards">
+   <div class="card"><h3>Abstract</h3><p>Maximum 300 words · 3–5 keywords</p></div>
+   <div class="card"><h3>Full Paper</h3><p>4,000–6,000 words · MS Word (.doc/.docx)</p></div>
+   <div class="card"><h3>Referencing</h3><p>APA 7th Edition or relevant subject-specific style</p></div>
+   <div class="card"><h3>Formatting</h3><p>Times New Roman · 12-point · 1.5 line spacing</p></div>
+   <div class="card"><h3>Review</h3><p>Plagiarism screening and double-blind peer review.</p></div>
+   <div class="card"><h3>Evaluation</h3><p>Originality, rigour, relevance, innovation and contribution.</p></div>
+  </div>
+  <div class="timeline">
+   <div class="milestone"><small>20 AUG 2026</small><b>Abstract Submission</b></div>
+   <div class="milestone"><small>25 AUG 2026</small><b>Acceptance Notification</b></div>
+   <div class="milestone"><small>10 SEP 2026</small><b>Registration Deadline</b></div>
+   <div class="milestone"><small>15 SEP 2026</small><b>Full Paper Submission</b></div>
+   <div class="milestone"><small>25–26 SEP 2026</small><b>Symposium</b></div>
+  </div>
+ </div>
+</section>
+
+<section id="registration" class="themes">
+ <div class="container">
+  <div class="section-kicker">Registration</div><h2>Be part of the Blue Economy dialogue.</h2>
+  <p class="lead">Registration is mandatory for all delegates, including paper presenters and participants.</p>
+  <div class="fees">
+   <div class="fee"><span>Academicians / Industry Professionals / Others</span><b>₹1,000</b></div>
+   <div class="fee"><span>Research Scholars & Students</span><b>₹750</b></div>
+   <div class="fee"><span>International Participants</span><b>USD 20</b></div>
+  </div>
+  <div class="cards">
+   <div class="card"><h3>Included</h3><p>Technical sessions, keynote lectures, panel discussions, delegate kit, working lunch and refreshments.</p></div>
+   <div class="card"><h3>Certificates</h3><p>Participation certificate and presentation certificate for paper presenters.</p></div>
+   <div class="card"><h3>Proceedings</h3><p>Digital conference proceedings, where applicable.</p></div>
+  </div>
+  <p style="color:#587078;font-size:13px;margin-top:20px">Accommodation in the hostel may be provided subject to availability and additional payment.</p>
+ </div>
+</section>
+
+<section class="highlight">
+ <div class="container highlight-grid">
+  <div><div class="section-kicker">Beyond the Symposium</div><h2>Alappuzha Blue Economy Vision 2030 Declaration</h2><p class="lead">A proposed forward-looking contribution bringing together research, policy, industry, entrepreneurship, communities and innovation to support a more sustainable, resilient, inclusive and opportunity-driven Blue Economy ecosystem in Alappuzha and Kerala.</p></div>
+  <div class="checks">
+   <div class="check">✓ Strengthening Blue Economy research</div><div class="check">✓ Government–academia–industry linkages</div>
+   <div class="check">✓ Blue entrepreneurship & investment</div><div class="check">✓ Sustainable livelihoods</div>
+   <div class="check">✓ Evidence-based policy recommendations</div><div class="check">✓ Education, skills & youth engagement</div>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="container contact-grid">
+  <div><div class="section-kicker">Venue & Contact</div><h2>Meet us in Cherthala.</h2><p class="lead"><strong>Naipunnya School of Management, Cherthala</strong><br>Near Manorama Junction<br>Cherthala, Alappuzha – 688524<br>Kerala, India</p><p><strong>Dates:</strong> 25–26 September 2026<br><strong>Mode:</strong> Hybrid – In-person & Online</p></div>
+  <div class="contact-box"><div class="section-kicker">Symposium Secretariat</div><h3>Vembanad Dialogues 2026</h3><p>Naipunnya School of Management<br>Near Manorama Junction<br>Cherthala, Alappuzha – 688524<br>Kerala, India</p><p><strong>General Enquiries</strong><br><a href="mailto:symposium@naipunnyacollege.ac.in">symposium@naipunnyacollege.ac.in</a></p><a class="btn btn-primary" href="mailto:symposium@naipunnyacollege.ac.in?subject=Vembanad%20Dialogues%202026%20Enquiry">Contact Secretariat</a></div>
+ </div>
+</section>
+
+<footer>
+ <div class="container footer-grid">
+  <div><strong>Vembanad Dialogues 2026</strong><br>Global Symposium on Keralam’s Blue Economy</div>
+  <div>25–26 September 2026 · Cherthala, Kerala<br>Hybrid Mode · In-person & Online</div>
+ </div>
+ <div class="container"><small>From Research to Action. From Water to Opportunity. From Alappuzha to a Blue Future.</small></div>
+</footer>
+
+<script>
+document.querySelectorAll('.navlinks a').forEach(a => a.addEventListener('click', () => document.querySelector('.navlinks').classList.remove('show')));
+</script>
+<style>
+@media(max-width:900px){.navlinks.show{display:flex;position:absolute;left:0;right:0;top:72px;background:#fff;padding:18px 4%;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e6eeee}.navlinks.show .btn{width:100%}}
+</style>
+</body>
+</html>
